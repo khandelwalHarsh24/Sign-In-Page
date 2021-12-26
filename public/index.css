@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.form-box{
+    height:30rem;
+    /* border: 2px solid red; */
+}
+
+.heading{
+    height:5rem;
+    font-size: 45px;
+    /* border: 2px solid blue; */
+    background-color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:rgb(16, 197, 238);
+}
+
+.form-data{
+    height:25rem;
+    /* border: 2px solid pink; */
+    background-color: rgba(251, 250, 250, 0.823);
+}
+
+.user{
+    height:10rem;
+    /* border: 2px solid red; */
+    background-color: rgba(235, 117, 166, 0.7);
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.name{
+    font-size:30px;
+    /* position: relative;
+    left: 500px;
+    top: 20px; */
+}
+
+.email{
+    font-size: 30px;
+    display: block;
+}
+
+
+
+.userdata{
+    /* position: relative;
+    left: 520px;
+    top: 20px; */
+    height:30px;
+    width:180px;
+    border-radius: 4px;
+}
+
+.emaildata{
+    height:30px;
+    width:200px;
+    border-radius:4px;
+}
+
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    background-color: rgba(31, 157, 235, 0.7);
+}
+
+.btn1{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;;
+}
